@@ -41,7 +41,7 @@ The project builds on the following official docker images:
 - [nyc](https://github.com/istanbuljs/nyc)
 
 ### Build docker image
-1. `$ cp template.env .env`
+1. `$ cp .env.template .env`
 Customize `.env` file. For `TIMEZONE` settings see the [alpine documentation](https://wiki.alpinelinux.org/wiki/Alpine_Linux:FAQ#Time_and_timezones)
 
 2. Build the image:
